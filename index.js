@@ -31,13 +31,16 @@
     document.body.appendChild(usageInstruction);
 
     // 配置参数
+    //此处
+    //填写
+    //Api key
     const CONFIG = {
-        API_ENDPOINT: "https://api.siliconflow.cn/v1/chat/completions",
-        MODEL_NAME: "THUDM/GLM-4-32B-0414",
-        API_KEY: "sk-iotrfgupnowtoiudsklsycnsmmunlurejccjxhtmrkvmqdas",
-        WORD_FORMS_API_ENDPOINT: "https://api.siliconflow.cn/v1/chat/completions",
-        WORD_FORMS_MODEL_NAME: "THUDM/GLM-4-32B-0414",
-        WORD_FORMS_API_KEY: "sk-ujtgmcpdhogihgpbpmwnaxadxokjbphbfsurikipkjjfbuan",
+        API_ENDPOINT: "Api_Url_1",
+        MODEL_NAME: "Moedl",
+        API_KEY: "Your_ApiKey",
+        WORD_FORMS_API_ENDPOINT: "Api_Url",
+        WORD_FORMS_MODEL_NAME: "Moedl",
+        WORD_FORMS_API_KEY: "Your_ApiKey_2",
         MAX_TEXT_LENGTH: 500,
         REQUEST_INTERVAL: 1000,
         FONT_SCALE_FACTOR: 0.65,
